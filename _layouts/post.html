@@ -1,33 +1,42 @@
 ---
 layout: default
 ---
-<div class="page-header header-filter" style="background-image: url('{{ site.baseurl }}/assets/img/{{ page.img }}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="title">{{ page.title }}</h1>
-                <h4>Every landing page needs a small description after the big bold title, that&apos;s why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
-                <br>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-danger btn-raised btn-lg">
-                    <i class="fa fa-play"></i> Watch video
-                </a>
+<div class="main">
+    <div class="section"
+         style="background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 45%, rgba(195,203,222,0.1) 45%, rgba(195,203,222,0.1) 45%);">
+        <div class="container">
+            <div class="row mt-md-5">
+                <div class="col-md-8">
+                    <img class="img-fluid w-100" src="{{site.baseurl}}/assets/img/{{ page.img }}">
+                </div>
+                <div class="col-md-4">
+                    <h1 class="display-2 font-weight-bold">{{ page.title }}</h1>
+                    <p class="text-muted font-weight-bold">
+                        <span class="d-inline-block nav-link">{{ page.date | date_to_string }}</span>
+                    </p>
+                    <p class="text-muted mt-2" id="social-media-buttons">
+                    <span class="d-inline-block nav-link pointer">
+                        <a href="https://www.facebook.com/sharer.php?u={{ site.url }}/{{ page.url }}&title={{ page.title }}"
+                           title="Share on Facebook" target="_blank">
+                            <i class="fab fa-facebook fa-2x text-muted"></i>
+                        </a>
+                    </span>
+                    <span class="d-inline-block nav-link pointer">
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
+                           rel="nofollow" target="_blank" title="Share on Twitter">
+                            <i class="fab fa-twitter fa-2x text-muted"></i>
+                        </a>
+                    </span>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="main main-raised">
     <div class="section">
         <div class="container">
-            <div class="row justify-content-center rounded" id="post_body">
-                <div class="col-md-8">
-                    <h1 class="display-3">{{ page.title }}</h1>
-                    <p class="text-muted">
-                        <span class="d-inline-block nav-link"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }}</span>
-                    </p>
-                    <img class="w-100 img-fluid" src="{{site.baseurl}}/assets/img/{{ page.img }}">
-                    <div class="font-size-paragraph mt-5">
-                        {{ content }}
-                    </div>
+            <div class="row justify-content-center" id="post_body">
+                <div class="col-md-7 post-content text-muted">
+                    {{ content }}
                 </div>
             </div>
         </div>

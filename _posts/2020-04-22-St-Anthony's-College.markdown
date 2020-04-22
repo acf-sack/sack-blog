@@ -1,10 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-03-22 10:26:33 +0530
+title:  "St Anthony's College!"
+date:   2020-04-22 10:26:33 +0530
 img: /posts/office_2x.png
 categories: jekyll update
 ---
+Whether you’re new to remote work or struggling with the WFH lifestyle as we practice social distancing, we at Dribbble are here to help. As a fully remote team, we’ve learned a lot over the years. We understand that everyone’s working style is different, and what works for one individual might not necessarily work for all of us. Our good friend and Overtime host Meg Lewis couldn’t have said it any better:
+
+### 1. Enhance your desk space
+
+One of the greatest luxuries of working from home is getting to create an environment that you enjoy being in. Start by personalizing your workspace so you feel good about spending most of your day there. Here are some ways you can enhance and decorate your desk with Hygge in mind:
+
+- Declutter: Remember, a clean desk makes for a clear mind.
+- Lighting: Use scented candles, salt lamps, or other mood lighting to set soothing vibes.
+- Artwork: Now’s the time to shop small and purchase a print you love to hang up in your space.
+- Plants: An overwhelming amount of studies have shown that houseplants can actually improve health and sharpen your focus.
+- Photos: Decorate your space with photos of loved ones and memories to boost morale and help remind you of the important stuff.
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

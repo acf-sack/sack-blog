@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-02-20 10:26:33 +0530
-img: /posts/8dd192b5bb8983f6c68e51d9319e134e.jpg
+title:  "Enhance your desk space!"
+date:   2020-03-19 10:26:33 +0530
+img: /posts/natsya.png
 categories: jekyll update
 ---
 Whether you’re new to remote work or struggling with the WFH lifestyle as we practice social distancing, we at Dribbble are here to help. As a fully remote team, we’ve learned a lot over the years. We understand that everyone’s working style is different, and what works for one individual might not necessarily work for all of us. Our good friend and Overtime host Meg Lewis couldn’t have said it any better:
