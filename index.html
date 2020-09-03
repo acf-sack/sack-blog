@@ -2,42 +2,68 @@
 layout: default
 title: St Anthony's College Kandy
 ---
-<div class="page-header header-filter" style="background-image: url('{{ site.baseurl }}/assets/img/profile_city.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="title">Your Story Starts With Us.</h1>
-                <h4>Every landing page needs a small description after the big bold title, that&apos;s why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
-                <br>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-danger btn-raised btn-lg">
-                    <i class="fa fa-play"></i> Watch video
-                </a>
+<div class="main">
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-2 font-weight-bold ml-3">SACK News</h1>
+                </div>
+            </div>
+            <div class="row">
+                {% for post in site.posts limit: 1%}
+                <div class="col-md-8">
+                    <a href="{{ post.url }}" class="text-decoration-none text-dark">
+                        <div class="post-card card-body">
+                            <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
+                                 alt="{{ post.title }}">
+                            <h2 class="font-weight-bold">{{ post.title }}</h2>
+                            {{ post.date | date_to_string }}
+                            {{ post.excerpt }}
+                        </div>
+                    </a>
+                </div>
+                {% endfor%}
+                <div class="col-md-4">
+                {% for post in site.posts limit: 4 offset:1%}
+                    <a href="{{ post.url }}" class="text-decoration-none text-dark">
+                        <div class="post-card card-body row">
+                            <img class="img-fluid col-6" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
+                                 alt="{{ post.title }}">
+                            <div class="col-6">
+                                <h4 class="font-weight-bold">{{ post.title }}</h4>
+                                {{ post.date | date_to_string }}
+                            </div>
+                        </div>
+                    </a>
+                {% endfor%}
+                </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-<div class="main main-raised">
-    <div class="section">
-        <div class="container">
-            {% for post in site.posts limit: 4%}
-            <div class="card-body">
+    <div class="section container">
+        <div class="row">
+            <div class="col-md-8 ml-3">
+                {% for post in site.posts %}
                 <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img class="img-fluid w-100 rounded" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
-                                 alt="{{ post.title }}">
-                        </div>
-                        <div class="col-md-6">
-                            <h2 class="font-weight-bold">{{ post.title }}</h2>
-                            <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}
-                            <p class="mt-1">{{ post.excerpt }}</p>
+                    <div class="post-card card-body">
+                        <div class="row align-items-start">
+                            <div class="col-4">
+                                <img class="img-fluid" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
+                                     alt="{{ post.title }}">
+                            </div>
+                            <div class="col-8 mt-0">
+                                <h2 class="font-weight-bold mt-0">{{ post.title }}</h2>
+                                <p>
+                                    {{ post.date | date_to_string }}
+                                    {{ post.excerpt }}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </a>
+                {% endfor%}
             </div>
-            <hr>
-            {% endfor%}
         </div>
     </div>
 </div>

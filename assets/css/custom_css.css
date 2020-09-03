@@ -1,0 +1,30 @@
+.shadow-none{
+    box-shadow: none !important;
+}
+
+.post-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.post-content p{
+    font-size: 18px !important;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6{
+    font-weight: bold;
+    color: black !important;
+}
+
+.post-content::first-letter{
+    color: black;
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+.pointer{
+    cursor: pointer;
+}
