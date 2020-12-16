@@ -25,18 +25,6 @@ title: St Anthony's College Kandy
                 </div>
                 {% endfor%}
                 <div class="col-md-4">
-                {% for post in site.posts limit: 4 offset:1%}
-                    <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                        <div class="post-card card-body row">
-                            <img class="img-fluid col-6" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
-                                 alt="{{ post.title }}">
-                            <div class="col-6">
-                                <h4 class="font-weight-bold">{{ post.title }}</h4>
-                                {{ post.date | date_to_string }}
-                            </div>
-                        </div>
-                    </a>
-                {% endfor%}
                 </div>
             </div>
         </div>
