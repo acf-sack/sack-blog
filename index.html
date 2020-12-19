@@ -3,7 +3,7 @@ layout: default
 title: St Anthony's College Kandy
 ---
 <div class="main">
-    <div class="section">
+    <div class="section pb-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -11,46 +11,27 @@ title: St Anthony's College Kandy
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts limit: 1%}
                 <div class="col-md-8">
+                    {% for post in site.posts %}
                     <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                        <div class="post-card card-body">
-                            <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
-                                 alt="{{ post.title }}">
-                            <h2 class="font-weight-bold">{{ post.title }}</h2>
-                            {{ post.date | date_to_string }}
-                            {{ post.excerpt }}
+                        <div class=" card-body">
+                            <div class="row align-items-start">
+                                <div class="col-12">
+                                    <h2 class="font-weight-bold mt-0">{{ post.title }}</h2>
+                                    <h5>{{ post.date | date_to_string }}</h5>
+                                    <img class="img-fluid" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
+                                        alt="{{ post.title }}">
+                                </div>
+                                <div class="col-12 mt-0">
+                                    <p>
+                                        {{ post.excerpt }}
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </a>
+                    {% endfor%}
                 </div>
-                {% endfor%}
-                <div class="col-md-4">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section container">
-        <div class="row">
-            <div class="col-md-8 ml-3">
-                {% for post in site.posts %}
-                <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                    <div class="post-card card-body">
-                        <div class="row align-items-start">
-                            <div class="col-4">
-                                <img class="img-fluid" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
-                                     alt="{{ post.title }}">
-                            </div>
-                            <div class="col-8 mt-0">
-                                <h2 class="font-weight-bold mt-0">{{ post.title }}</h2>
-                                <p>
-                                    {{ post.date | date_to_string }}
-                                    {{ post.excerpt }}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                {% endfor%}
             </div>
         </div>
     </div>
