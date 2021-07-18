@@ -25,6 +25,11 @@
     font-weight: bolder;
 }
 
+
+.remove-li-disc{
+    list-style-type: none !important;
+}
+
 .pointer{
     cursor: pointer;
 }

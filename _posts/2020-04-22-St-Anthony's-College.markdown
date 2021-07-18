@@ -3,7 +3,7 @@ layout: post
 title:  "St Anthony's College!"
 date:   2020-04-22 10:26:33 +0530
 img: /posts/office_2x.png
-categories: jekyll update
+categories: update ruby
 ---
 Whether you’re new to remote work or struggling with the WFH lifestyle as we practice social distancing, we at Dribbble are here to help. As a fully remote team, we’ve learned a lot over the years. We understand that everyone’s working style is different, and what works for one individual might not necessarily work for all of us. Our good friend and Overtime host Meg Lewis couldn’t have said it any better:
 
