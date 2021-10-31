@@ -1,6 +1,6 @@
 # Official blog of St Anthony's College Kandy, Sri Lanka
 
-Preview: https://acf-sack.github.io/sack-blog/.
+Available at: https://blog.sack.edu.lk/
 
 ## Contribution
 
@@ -9,12 +9,16 @@ Preview: https://acf-sack.github.io/sack-blog/.
 
 ## Run Locally
 
+- Install Ruby and Jekyll
+	Follow this documentation: (Jekyll Installation Guide)[https://jekyllrb.com/docs/installation/] 
 - Fork this repository
 - Clone your forked repository
-`git clone https://github.com/USERNAME/sack-blog`
-`cd sack-blog`
-- Install Jekyll
-`gem install jekyll bundler`
+	```
+	git clone https://github.com/USERNAME/sack-blog
+	cd sack-blog
+	```
+- Install Dependancies
+	`bundle install`
 - Run local server
-`jekyll serve`
+	`bundle exec jekyll serve`
 - Go to http://localhost:4000
