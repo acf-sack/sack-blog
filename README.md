@@ -9,7 +9,7 @@ Available at: https://blog.sack.edu.lk/
 
 ## Run Locally
 
-- Install Ruby and Jekyll. 
+- Install Ruby and Jekyll
 	Follow this documentation: (Jekyll Installation Guide)[https://jekyllrb.com/docs/installation/] 
 - Fork this repository
 - Clone your forked repository
