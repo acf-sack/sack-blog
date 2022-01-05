@@ -63,9 +63,9 @@ prose:
           element: "hidden"
           value: "post"
       - name: "title"
-      field:
-        element: "text"
-        label: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "categories"
         field:
           element: "multiselect"
