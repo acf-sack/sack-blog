@@ -54,29 +54,91 @@ plugins:
 #   - vendor/ruby/
 prose:
   rooturl: '_posts'
-  siteurl: 'https://blog.sack.edu.lk/'
+  siteurl: 'http://joshuacox.github.io/'
+  relativeLinks: 'http://joshuacox.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
-          options:
-            - name: "Sports"
-              value: "sports"
-            - name: "Events"
-              value: "events"
-      - name: "date"
-        field:
-          element: "hidden"
-          value: CURRENT_DATETIME
       - name: "layout"
         field:
           element: "hidden"
           value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "photo_url"
+        field:
+          element: "text"
+          label: "450x450 Picture Thumb for index"
+          value: ""
+      - name: "disqus"
+        field:
+          element: "checkbox"
+          label: "Disqus Comments"
+          value: true
+      - name: "fbcomments"
+        field:
+          element: "checkbox"
+          label: "Facebook Comments"
+          value: false
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+      - name: "category"
+        field:
+          element: "select"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Docker"
+              value: "docker"
+            - name: "Linux"
+              value: "linux"
+            - name: "Jekyll"
+              value: "jekyll"
+            - name: "CLI"
+              value: "cli"
+            - name: "Blog Post"
+              value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "Docker"
+              value: "docker"
+            - name: "Linux"
+              value: "linux"
+            - name: "Jekyll"
+              value: "jekyll"
+            - name: "CLI"
+              value: "cli"
+            - name: "Humor"
+              value: "humor"
+            - name: "Ruby"
+              value: "ruby"
+            - name: "Javascript"
+              value: "javascript"
+            - name: "Python"
+              value: "python"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
