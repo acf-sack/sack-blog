@@ -9,13 +9,13 @@ title: St Anthony's College Kandy
         <div class="section">
             <div class="row">
                 <div class="col">
-                    <h1 class="display-2 font-weight-bold ml-3">SACK News</h1>
+                    <h3 class="display-2 font-weight-bold ml-3">Sport News</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8">
                     {% for post in site.posts %}
-                    {% if post.categories contains "jekyll" %}
+                    {% if post.categories contains "sports" %}
                     <a href="{{ post.url }}" class="text-decoration-none text-dark">
                         <div class=" card-body">
                             <div class="row align-items-start">
@@ -40,14 +40,13 @@ title: St Anthony's College Kandy
                     <div class="position-fixed">
                         <div class="container">
                             <div class="row">
-                                <p class="display-2 font-weight-normal text-dark">Categories</p>
+                                <p class="display-5 font-weight-bold text-dark">Categories</p>
                             </div>
                         </div>
                         <div class="section pt-1">
-                            <ul class="remove-li-disc">
-                                <li><a href="{{ site.baseurl }}/categories/jekyll.html" class="h2 text-primary">jekyll</a></li>
-                                <li><a href="{{ site.baseurl }}/categories/update.html" class="h3">update</a></li>
-                                <li><a href="{{ site.baseurl }}/categories/ruby.html" class="h3">ruby</a></li>
+                             <ul class="remove-li-disc">
+                                <li><a href="{{ site.baseurl }}/categories/sports.html">sports</a></li>
+                                <li><a href="{{ site.baseurl }}/categories/events.html">events</a></li>
                             </ul>
                         </div>
                     </div>
