@@ -66,17 +66,4 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
-          options:
-            - name: "Sports"
-              value: "sports"
-            - name: "Events"
-              value: "events"
-      - name: "date"
-        field:
-          element: "hidden"
-          value: CURRENT_DATETIME
+      
