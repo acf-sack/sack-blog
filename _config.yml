@@ -67,4 +67,24 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "photo_url"
+        field:
+          element: "text"
+          label: "450x450 Picture Thumb for index"
+          value: ""
+      - name: "disqus"
+        field:
+          element: "checkbox"
+          label: "Disqus Comments"
+          value: true
+      - name: "fbcomments"
+        field:
+          element: "checkbox"
+          label: "Facebook Comments"
+          value: false
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
       
