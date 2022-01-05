@@ -53,6 +53,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 prose:
+  rooturl: '_posts'
   media: 'media'
   metadata:
       _posts:
