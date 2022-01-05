@@ -65,26 +65,18 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Title"
-          value: ""
-      - name: "photo_url"
+          label: "title"
+      - name: "categories"
         field:
-          element: "text"
-          label: "450x450 Picture Thumb for index"
-          value: ""
-      - name: "disqus"
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          options:
+            - name: "Sports"
+              value: "sports"
+            - name: "Events"
+              value: "events"
+      - name: "date"
         field:
-          element: "checkbox"
-          label: "Disqus Comments"
-          value: true
-      - name: "fbcomments"
-        field:
-          element: "checkbox"
-          label: "Facebook Comments"
-          value: false
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
-      
+          element: "hidden"
+          value: CURRENT_DATETIME
