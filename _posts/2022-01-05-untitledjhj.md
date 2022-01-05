@@ -1,7 +1,7 @@
 ---
 date: '2022-01-05 23:15 +0530'
 layout: post
-published: false
+published: true
 title: 'Untitledjhj '
 categories:
   - sports
