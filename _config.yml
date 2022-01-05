@@ -57,7 +57,7 @@ prose:
   siteurl: 'http://joshuacox.github.io/'
   relativeLinks: 'http://joshuacox.github.io/links.jsonp'
   media: 'media'
-    metadata:
+  metadata:
       _posts:
         - name: "layout"
           field:
@@ -80,19 +80,4 @@ prose:
         - name: "date"
           field:
             element: "hidden"
-            value: CURRENT_DATETIME
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+            value: CURRENT_DATETIME  
