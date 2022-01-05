@@ -58,14 +58,10 @@ prose:
   media: 'media'
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
       - name: "categories"
         field:
           element: "multiselect"
@@ -80,3 +76,7 @@ prose:
         field:
           element: "hidden"
           value: CURRENT_DATETIME
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
