@@ -1,34 +1,61 @@
-<nav class="navbar shadow-none fixed-top navbar-expand-lg" id="sectionsNav">
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-expand-lg fixed-top" color-on-scroll="100">
     <div class="container">
-        <div class="navbar-translate">
-            <a class="navbar-brand" href="#">
-                <img src="{{ site.baseurl }}/assets/img/logo/logo.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="col">
+        <div class="row justify-content-start">
+          <div class="col-sm-4">
+            <img class="nav-img" src="{{ site.baseurl }}/assets/img/nav-img.svg">
+          </div>
+          <div class="col-sm-8">
+            <div class="row justify-content-end">
+              <div class="col-sm-8">
+                <button class="btn btn-contact">
+                  <i class="material-icons">call</i> 
+                  <a href="tel:+94 081 221 3652">
+                    081 221 3652
+                  </a>
+                </button>
+                <form class="form-inline">
+                  <div class="searchLarge">
+                    <div class="gcse-search"></div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-8">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a href="../../" class="nav-link nav-btn-hover">Home</a></li>
+                  <li class="nav-item"><a href="../../contact_us/" class="nav-link nav-btn-hover">Contact Us</a></li>
+                  <li class="nav-item"><a href="../../history/" class="nav-link nav-btn-hover">History</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-<!--    <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-                       href="https://www.facebook.com/sacklk" target="_blank"
-                       data-original-title="Like us on Facebook" rel="nofollow">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-                       href="https://www.linkedin.com/company/sacklk/" target="_blank"
-                       data-original-title="Follow us on Linkdin" rel="nofollow">
-                        <i class="fa fa-linkedin-square"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>  -->
+        <div class="mobile-view row justify-content-center">
+          <div class="phone-icon ">
+            <i class="material-icons">call</i>
+          </div>
+          <div class="search-icon ">
+            <div onclick="showSearchbar()"><i class="material-icons search">search</i></div>
+          </div>
+          <div class="hamburger ">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+            <div class="searchSmall" id="SearchBar" style="display: none">
+              <div class="gcse-search"></div>
+            </div>
+        </div>
+      </div>
     </div>
-</nav>
+  </nav>
+  <!-- //Navbar -->
+  </script>
+  
+  
+  
+  
+  
+  
+  
