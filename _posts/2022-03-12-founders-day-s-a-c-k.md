@@ -1,7 +1,7 @@
 ---
 date: '2022-03-12 18:04 +0530'
 layout: post
-published: false
+published: true
 title: Founders Day - S.A.C.K
 categories:
   - events
@@ -36,5 +36,3 @@ May the fame of this hallowed institution rise and fly above all others like the
 ![WhatsApp Image 2022-03-12 at 1.12.30 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.30 AM.jpeg)
 
 ![WhatsApp Image 2022-03-12 at 1.12.34 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.34 AM.jpeg)
-
-
