@@ -16,23 +16,10 @@ May the fame of this hallowed institution rise and fly above all others like the
 
  _**LUX DE COELO!!!**_
 
-**#AntonianFamily                                                                                 #AmuFamily**
-![WhatsApp Image 2022-03-12 at 1.11.20 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.11.20 AM.jpeg)
-
+**#AntonianFamily
+#AmuFamily**
 ![WhatsApp Image 2022-03-12 at 1.11.31 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.11.31 AM.jpeg)
-
-![WhatsApp Image 2022-03-12 at 1.11.44 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.11.44 AM.jpeg)
-
-![WhatsApp Image 2022-03-12 at 1.11.54 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.11.54 AM.jpeg)
-
-![WhatsApp Image 2022-03-12 at 1.12.02 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.02 AM.jpeg)
-
 ![WhatsApp Image 2022-03-12 at 1.12.10 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.10 AM.jpeg)
-
-![WhatsApp Image 2022-03-12 at 1.12.18 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.18 AM.jpeg)
-
-![WhatsApp Image 2022-03-12 at 1.12.24 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.24 AM.jpeg)
-
-![WhatsApp Image 2022-03-12 at 1.12.30 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.30 AM.jpeg)
-
 ![WhatsApp Image 2022-03-12 at 1.12.34 AM.jpeg]({{site.baseurl}}/media/WhatsApp Image 2022-03-12 at 1.12.34 AM.jpeg)
+
+
