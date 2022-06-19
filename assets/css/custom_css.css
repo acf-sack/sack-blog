@@ -57,10 +57,13 @@
   
   .search-icon {
     display: none;
+    margin-right: 4.0rem;
   }
   
   .phone-icon {
     display: none;
+    margin-right: 4.2rem;
+    margin-left: 2.0rem;
   }
   
   .mobile-view{
