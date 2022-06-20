@@ -51,25 +51,16 @@ The above copyright notice and this permission notice shall be included in all c
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 <script src="{{ site.baseurl }}/assets/js/material-kit.js?v=2.0.7" type="text/javascript"></script>
 
+<!--Function for the search bar-->
 <script>
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".navbar-nav");
-  
-    hamburger.addEventListener("click", mobileMenu);
-  
-    function mobileMenu() {
-      hamburger.classList.toggle("active");
-      navMenu.classList.toggle("active");
-    }
-  
-    const navLink = document.querySelectorAll(".nav-link");
-  
-    navLink.forEach(n => n.addEventListener("click", closeMenu));
-  
-    function closeMenu() {
-      hamburger.classList.remove("active");
-      navMenu.classList.remove("active");
+    function showSearchbar() {
+      let x = document.getElementById("SearchBar");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
     }
   </script>
-  
+
 </html>
